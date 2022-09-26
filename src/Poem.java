@@ -6,32 +6,34 @@ public class Poem {
     }
 
     // this method prints the entire poem
-    public void printPoem() {
+    public void printPoem(){
         printFirstHalf();
     }
 
-    public void printFirstHalf() {
-        printLine2();
-        System.out.println("Hello " + name + "!");
-    }
+        public void printFirstHalf() {
+            System.out.println("Hello " + name + "!");
+            printLine2();
+        }
 
-    public void printLine2() {
-        System.out.println("I have a poem for you");
-        printLine3();
-    }
+        public void printLine2() {
+            System.out.println("I have a poem for you");
+            printLine3();
+        }
 
-    public void printLine3() {
-        printSecondHalf();
-        System.out.println("Roses are red");
-    }
+        public void printLine3() {
+            System.out.println("Roses are red");
+            printSecondHalf();
+        }
 
-    public void printSecondHalf() {
-        System.out.println("Violets are blue");
-        printLastLine();
-        System.out.println("AP CSA is awesome!");
-    }
+        public void printSecondHalf() {
+            System.out.println("Violets are blue");
+            System.out.println("AP CSA is awesome!");
+            printLastLine();
+        }
 
-    public void printLastLine() {
-        System.out.println("And that's the end - see you!");
-    }
+        public void printLastLine() {
+            System.out.println("And that's the end - see you!");
+        }
+
+
 }

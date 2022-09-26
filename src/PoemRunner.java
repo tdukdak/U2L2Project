@@ -1,5 +1,7 @@
 public class PoemRunner {
-    Poem poem1 = new Poem("Adrian");
-    poem1.printPoem();
+    public static void main(String[] args) {
+        Poem poem = new Poem("Adrian");
+        poem.printPoem();
 
+    }
 }
